@@ -27,7 +27,7 @@ Este repositorio contiene el código para:
 
 ## **Esquema de Conexión**
 
-![Diagrama del circuito](pressure-sensor-ESP32/ESQUEMA.png)
+![Diagrama del circuito](ESQUEMA.png)
 
 
 
