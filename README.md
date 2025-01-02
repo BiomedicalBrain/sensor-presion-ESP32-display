@@ -1,8 +1,8 @@
-# **ESP32 Lector de Sensor de Presión - XGZP6847A con Display OLED **
+# ESP32 Lector de Sensor de Presión - XGZP6847A con Display OLED
 
 Este proyecto utiliza un **ESP32 DevKit V1** para leer los valores de presión de tres sensores **XGZP6847A** analógicos y mostrar las mediciones en un **Display OLED SPI 2.4" 128x64**. El código está diseñado para leer los valores de presión de tres canales ADC del ESP32 y promediarlos para obtener medidas más estables. Además, los resultados se despliegan en una pantalla OLED en tiempo real.
 
----
+
 
 ## **Descripción del Proyecto**
 
@@ -13,7 +13,7 @@ Este repositorio contiene el código para:
 - Convertir las lecturas analógicas a valores de presión (en kPa), cuya ecuación fue obtenida del datasheet proporcionao por [CFSensor](https://cfsensor.com/wp-content/uploads/2022/11/XGZP6847A-Pressure-Sensor-V2.7.pdf)
 - Mostrar las mediciones de presión en tiempo real en un **Display OLED SPI 2.4" 128x64**.
 
----
+
 
 ## **Componentes Requeridos**
 
@@ -23,13 +23,13 @@ Este repositorio contiene el código para:
 - **Cables de conexión (jumper wires)**  
 - **Fuente de alimentación adecuada para el ESP32**
 
----
+
 
 ## **Esquema de Conexión**
 
 INSERTA IMAGEN
 
----
+
 
 ## **Instalación**
 
@@ -51,7 +51,7 @@ INSERTA IMAGEN
        `https://dl.espressif.com/dl/package_esp32_index.json`
      - Luego, ve a **Herramientas → Placa → Gestor de placas...**, busca **ESP32** e instálala.
 
----
+
 
 ## **Uso**
 
@@ -61,7 +61,7 @@ INSERTA IMAGEN
 4. Selecciona el puerto correspondiente en **Herramientas → Puerto**.
 5. Sube el código al ESP32.
 
----
+
 
 ## Contribución
 
@@ -73,6 +73,8 @@ INSERTA IMAGEN
 4. **Envía un Pull Request** detallando los cambios que realizaste.
 
 Asegúrate de seguir las buenas prácticas de codificación y de probar los cambios antes de enviar tu Pull Request. ¡Gracias por contribuir!
+
+
 
 ## Licencia
 
