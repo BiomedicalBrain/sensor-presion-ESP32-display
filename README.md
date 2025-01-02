@@ -56,7 +56,7 @@ INSERTA IMAGEN
 ## **Uso**
 
 1. Conecta el ESP32, los sensores XGZP6847A y el Display OLED según el esquema de conexión.
-2. Abre el archivo `ESP32_Pressure_Sensor.ino` en Arduino IDE.
+2. Abre la carpeta `SensorPresion_ESP32_DisplayOLED` en Arduino IDE.
 3. Selecciona la placa **ESP32 DevKit V1** en **Herramientas → Placa**.
 4. Selecciona el puerto correspondiente en **Herramientas → Puerto**.
 5. Sube el código al ESP32.
