@@ -10,7 +10,7 @@ Este repositorio contiene el código para:
 
 - Leer los valores de presión de tres sensores **XGZP6847A** utilizando los pines ADC del **ESP32 DevKit V1**.
 - Promediar y redondear las lecturas de los sensores para mejorar la estabilidad.
-- Convertir las lecturas analógicas a valores de presión (en kPa), cuya ecuación fue obtenida del datasheet proporcionao por [CFSensor](https://cfsensor.com/wp-content/uploads/2022/11/XGZP6847A-Pressure-Sensor-V2.7.pdf)
+- Convertir las lecturas analógicas a valores de presión (en kPa), cuya ecuación fue obtenida del datasheet proporcionao por [CFSensor](https://cfsensor.com/wp-content/uploads/2022/11/XGZP6847A-Pressure-Sensor-V2.7.pdf).
 - Mostrar las mediciones de presión en tiempo real en un **Display OLED SPI 2.4" 128x64**.
 
 
@@ -21,7 +21,7 @@ Este repositorio contiene el código para:
 - **Sensor de presión XGZP6847A** (3 unidades)  
 - **Display OLED SPI 2.4" 128x64**  
 - **Cables de conexión (jumper wires)**  
-- **Fuente de alimentación adecuada para el ESP32**
+- **Fuente de alimentación adecuada para el ESP32, sensores y display** (Sugerencia: Fuente conmutada + Regulador Step Down LM2596)
 
 
 
@@ -61,6 +61,13 @@ INSERTA IMAGEN
 4. Selecciona el puerto correspondiente en **Herramientas → Puerto**.
 5. Sube el código al ESP32.
 
+## Notas Importantes
+
+1. **Calibración de los ADC de la ESP32**  
+   La presición de los ADC de ESP32 no es óptima, por lo tanto es recomendable su previa calibración. En este proyecto se realizó la calibración utilizando un repositorio de código abierto disponible en GitHub: [esp32-adc-calibrate](https://github.com/e-tinkers/esp32-adc-calibrate/tree/master). Este repositorio proporciona un método para mejorar la precisión de las lecturas de los ADC de la ESP32.
+
+2. **Verificación de la Precisión de las Mediciones**  
+   La precisión de las mediciones de presión fue verificada con la ayuda de un manómetro casero basado en el diseño disponible en: [MPS20N0040D Pressure Sensor Calibration with Arduino](https://makersportal.com/blog/2020/6/4/mps20n0040d-pressure-sensor-calibration-with-arduino). Este manómetro permitió comprobar la exactitud de los valores de presión medidos por el sistema.
 
 
 ## Contribución
