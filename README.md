@@ -27,7 +27,7 @@ Este repositorio contiene el código para:
 
 ## **Esquema de Conexión**
 
-![Diagrama del circuito](EsquemaV2.png)
+
 
 
 
