@@ -26,7 +26,7 @@ Este repositorio contiene el código para:
 
 
 ## **Esquema de Conexión**
-
+![Diagrama de conexiones](ESQUEMA.png)
 
 
 
