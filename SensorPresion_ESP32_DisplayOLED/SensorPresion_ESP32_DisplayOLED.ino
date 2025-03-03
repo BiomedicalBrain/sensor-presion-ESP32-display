@@ -7,8 +7,8 @@
 // #include "LUT.h" ; Incluir sólo si se requiere mayor precisión en las mediciones
 
 // Definir pines SPI para el OLED
-#define OLED_MOSI 21  // Pin SDA
-#define OLED_CLK 22   // Pin SCL
+#define OLED_MOSI 23  // Pin SDA
+#define OLED_CLK 18   // Pin SCLk
 #define OLED_DC 19    // Pin DC
 #define OLED_CS 5     // Pin CS
 #define OLED_RESET 4  // Pin RST
